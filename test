@@ -1,0 +1,14 @@
+
+		cust.setAddress("Test");
+		cust.setCustomerName("Ruben");
+		cust.setEmail("robin@gmail.com");
+		cust.setPanCard(123);
+		
+		
+		account.setAccountBalance(100);
+		account.setAccountType("SAVING");
+		account.setCustomer(custDao.findById(id).get());
+		account.setOpenDate(formatter.format(new Date()));
+		
+		
+		
